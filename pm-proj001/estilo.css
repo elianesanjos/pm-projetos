@@ -1,0 +1,42 @@
+
+/* body é todo o corpo do código */
+
+body {
+    background-color: #ecf0f1;
+    color: black;
+    padding: 12px;
+    font-family: Arial; 
+    font-size: 18px;
+}
+
+
+/* procedimeto padrão:  zerar todas as margens e espaçamentos*/
+    * {
+        margin: 0; 
+        padding: 0;
+    }
+
+
+/* alterando toda a tag li */
+
+li {
+    list-style-type: none; /*retira ou colocar marcadores */
+    background-color: #9b59b6; /* cor de fundo */
+    color: #FFFFFF; /* cor da fonte */
+    margin-bottom: 12px; /* mudar margem: bottom = inferior, sem nada, muda todas*/
+    padding: 12px; /* muda espaçameto interno geral */
+}
+
+h1, h2 {
+  
+  text-align:center; 
+}
+
+h2 {
+  font-variant-caps: all-small-caps;
+  color: #666
+  font-size: 16px;
+  margin-bottom: 12px;
+  
+}
+

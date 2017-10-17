@@ -1,0 +1,12 @@
+*{
+    margin:  0;
+    padding: 0;
+    
+}
+
+li {
+    list-style-type:georgian /*retira ou colocar marcadores */
+    color: #FFFFFF; /* cor da fonte */
+    margin-bottom: 12px; /* mudar margem: bottom = inferior, sem nada, muda todas*/
+    padding: 50px; /* muda espaçameto interno geral */
+}
