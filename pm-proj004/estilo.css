@@ -1,12 +1,53 @@
-*{
-    margin:  0;
-    padding: 0;
+ul{
+    padding: 0; /*regula espaçamento de todo o quadro */
+    margin: 0;
+  }
+
+li {
+    list-style-type:none; /*retira ou colocar marcadores */
+    background-color: #4a4a4a; /*cor de fundo */
+    margin-bottom: 3px; /* margem inferior */
+    padding: 60px 40px 60px 100px; /* regula o espaçamento dos itens da lista */
+    background-image: url('pendente.png');
+    background-repeat: no-repeat;
+    background-position: 40px center;
+    
     
 }
 
-li {
-    list-style-type:georgian /*retira ou colocar marcadores */
-    color: #FFFFFF; /* cor da fonte */
-    margin-bottom: 12px; /* mudar margem: bottom = inferior, sem nada, muda todas*/
-    padding: 50px; /* muda espaçameto interno geral */
+/* houver: tag para dar efeito de mudança de cor ao passar o mouse */
+
+li:hover{
+    
+  background-color: #6e6e6e;
 }
+
+
+/* para diferenciar  efeitos de apenas um elemento da lista, cria-se classe */
+
+li.feito {
+    background-color: #27ae60;
+    background-image: url('feito.png');
+    
+}
+
+li.feito:hover{
+    background-color: #52be7f;
+}
+
+/* tage para estilizar o link*/
+a{
+    color: #fff;
+    text-decoration: none;
+    display:block; /*muda o comportamento do link, de linha para bloco */
+    background-image: url('seta.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-family: 'oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase; /*transformar em maiúsculo */
+    letter-spacing: 2px; /* espaço entre as letras */
+    --webkit- font-smoothing: antialiased;
+    
+}
+
