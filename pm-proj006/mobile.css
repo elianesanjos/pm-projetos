@@ -1,0 +1,14 @@
+/* definições de atributos de tamanho de tela para responsividade = mida query (consulta de acordo com a midia: monitor, celular, etc */
+
+.container {
+        width: 960px;
+        margin: 0 auto;
+    } 
+     .noticia {
+        width: 300px;
+        padding-right: 20px;
+        float:left; /* tag que coloca uma div ao lado da outra */
+    }
+
+
+    

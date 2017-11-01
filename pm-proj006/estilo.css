@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    background-image: url(images/logo-playcode.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+body{
+    padding: 10px;
+}
+
+/* esconder o span usar visibilidade escondida tecnica de image replace */
+
+h1 span {
+    visibility:hidden;
+}
+
+.noticia{
+    margin-bottom: 30px;
+    
+}
+
+.noticia img{    
+   width: 100%;
+}
+
+.noticia h2 {
+    margin: 0; 
+    color:#4a4a4a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500; /* define peso */
+    text-transform: uppercase; /* transforma em maiusculo */
+    --webkit-font-smoothing: antialiased;
+    
+    
+}
+
+
+    
+
+
+
+
