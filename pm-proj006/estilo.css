@@ -15,7 +15,7 @@ h1 span {
 }
 
 .noticia{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     
 }
 
@@ -27,7 +27,7 @@ h1 span {
     margin: 0; 
     color:#4a4a4a;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500; /* define peso */
     text-transform: uppercase; /* transforma em maiusculo */
     --webkit-font-smoothing: antialiased;
