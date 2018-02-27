@@ -87,6 +87,11 @@ section#topo .chamada {
 }
 
 
+
+section#topo {
+    padding: 20px;
+}
+
 section#topo .chamada h2 {
     font-size: 50px;
     margin: 0;
@@ -106,8 +111,10 @@ section#topo .chamada a {
 
 
 
-section#conheca{
+section#conheca {
     padding: 70px;
+    background-color:beige;
+    
 }
 
 section#conheca .texto {
@@ -132,7 +139,7 @@ section#conheca .texto a {
 
 
 
-section# .depoimento {
+section#depoimento {
     background-color: #ebe8fb;
     border-top: 4px solid #511099;
 }
@@ -160,13 +167,76 @@ section#depoimento p {
 
 
 
+section#convite {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image:url(images/fundo-convite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-section#convite{
-    padding: 70px;
+
+section#convite .container {
+   flex-direction: column;   
+   align-items: center;
+    
+}
+
+
+section#convite form  {
+   background-color:rgba(255, 255, 255, 0.9);
+   padding: 10px;   
+   width: 70%;  
+   border-radius: 3px;
+   display: flex;
+
+    
+}
+
+
+section#convite input {
+   width: 75%;
+   padding: 30px;   
+   background-color: transparent;
+   border: none; 
+
+}
+
+
+section#convite button {
+       background-image: url(images/botao-convite.png);
+       background-color: transparent;
+       background-repeat: no-repeat;
+       border: none;
+       width: 108px;
+       height: 43px;
+       margin-top: 15px;
+       margin-right: 20;
+    
+}
+
+section#convite button span {
+   visibility: hidden;
+
 }
 
 
 
+footer  {
+    background-color: #2a0157;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 4px;
+    
+    
+}
+
+footer .container {
+   flex-direction: column;   
+   align-items: center;
+   font-size: 18px;    
+}
 
 
 @media (max-width:600px){
@@ -177,5 +247,27 @@ section#convite{
         margin-left: 20px;
         
     }
+    
+    section#conheca .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section#conheca .container .texto {
+        padding: 10px;
+    }
+    
+    section#conheca .container .texto a {
+        width: 100;
+        
+    }
+    
+    section#convite form {
+        display: block;
+        text-align: center;
+        width: 80%;
+        
+    }
+    
 }
 
